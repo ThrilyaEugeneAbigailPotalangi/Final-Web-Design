@@ -1,0 +1,365 @@
+body{
+  font-family: "montserrat";
+}
+
+
+/* CSS untuk gambar */
+.img-fluid.img-thumbnail {
+  border: none; 
+  padding: 0; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.navbar-brand{
+  font-family: "Bricolage Grotesque";
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+/* desain font slide */
+.carousel-caption h1 {
+  font-family: "Dancing Script"; /* Ganti dengan font yang Anda inginkan */
+  position: relative;
+  font-size: 3.5em; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  color: #fefefe; /* Warna font */
+  
+}
+
+.carousel-caption p {
+  font-family: "Bricolage Grotesque"; /* Ganti dengan font yang Anda inginkan */
+  font-size: 1.5em; /* Ukuran font */
+  font-weight: normal; /* Ketebalan font */
+  color: #ffffff; /* Warna font */
+  
+}
+
+/* Desain bagian "about" */
+
+.container h2 {
+  font-family: "Montserrat"; /* Ganti dengan font yang Anda inginkan */
+  font-size: 2em; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  color: #000000; /* Warna font */
+  
+}
+.container p {
+  font-family: 'Montserrat'; /* Ganti dengan font yang Anda inginkan */
+  font-size: 1em; /* Ukuran font */
+  font-weight: normal; /* Ketebalan font */
+  color: #555; /* Warna font */
+}
+.about-section .col-12 col-lg-6 {
+  text-align: justify;
+}
+/* style galery */
+h5{
+  font-family: 'Afacad';
+  
+}
+/* Animation for gallery images */
+.img-fluid {
+  transition: transform 0.3s ease;
+  
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+/* room and suit */
+.room-packages h2{
+  font-family: 'Montserrat';
+}
+
+
+/* service */
+h4{
+  font-family: 'Afacad';
+}
+/* facility */
+h3{
+  font-family: 'Montserrat';
+}
+.facility-box {
+  border: 1px solid #020405;
+  border-radius: 20px;
+  padding: 10px;
+}
+.facility-box i {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.facility-box h5{
+  font-size: 15px;
+  color: #555;
+}
+
+
+/* Media query untuk layar kecil */
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center; /* Pusatkan navbar pada layar kecil */
+  }
+  .carousel-caption {
+    bottom: 125px; /* Atur posisi keterangan carousel pada layar kecil */
+  }
+  .carousel-caption h5 {
+    font-size: 17px; /* Atur ukuran teks keterangan carousel pada layar kecil */
+  }
+}
+
+/* Custom CSS untuk mengubah ukuran ikon */
+.bx {
+  font-size: 36px; /* Atur ukuran ikon sesuai kebutuhan */
+}
+
+/* style utk testimonial */
+.testimonials {
+  background-color: #fff;
+  padding: 50px 0;
+}
+.profile {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Apply animation to testimonial cards */
+.profile {
+  animation: fadeIn 1s ease-out;
+}
+
+.profile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile blockquote {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.profile h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile span {
+  font-size: 14px;
+  color: #999;
+}
+/* design information */
+.Information h2{
+  font-family: 'Montserrat';
+  
+}
+.profile {
+  animation: fadeIn 1s ease-out;
+}
+
+/* design fasilitas */
+  .room-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/* design footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  
+}
+
+.footer {
+  background-color: #40A2E3;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: none;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-height: 800px) {
+  footer {
+      position: static;
+  }
+  header {
+      padding-top: 40px;
+  }
+}
+
+.footer .footer-left {
+  width: 30%;
+}
+
+.footer h3 {
+  color: #f5f5f5;
+  margin: 0;
+  padding-bottom: 20px;
+  font-family:'Montserrat';
+}
+
+.footer .footer-left img {
+  width: 25%;
+  vertical-align: middle;
+}
+
+.footer .credit-cards {
+  width: 100%; 
+}
+
+.footer .footer-copyright {
+  color: #3f0d42;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 10%;
+}
+
+.footer .footer-center {
+  width: 35%;
+}
+
+.footer .footer-center i {
+  background-color: #FFEED9;
+  color: #39A7FF;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0px;
+  
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .footer-right {
+  width: 30%;
+}
+
+.footer .footer-about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.footer .footer-center span {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 29px;
+}
+
+.footer .footer-media {
+  margin-top: 25px;
+}
+
+.footer .footer-media a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #FFEED9;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #39A7FF;
+  text-align: center;
+  line-height: 50px;
+  text-align: center;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer .footer-media a:hover {
+  background-color: #E0F4FF;
+}
+@media (max-width: 880px) {
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: left;
+  }
+
+  .footer .footer-center i {
+      margin-left: 0px;
+  }
+}
+
+
